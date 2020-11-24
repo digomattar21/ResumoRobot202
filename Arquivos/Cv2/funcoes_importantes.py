@@ -313,3 +313,7 @@ def find_box_points(mask):
             print([box])
 
 
+zero = Twist(Vector3(0,0,0), Vector3(0,0,0))
+dire = Twist(Vector3(0,0,0), Vector3(0,0,-w))
+esq = Twist(Vector3(0,0,0), Vector3(0,0,w))
+frente = Twist(Vector3(v,0,0), Vector3(0,0,0))
