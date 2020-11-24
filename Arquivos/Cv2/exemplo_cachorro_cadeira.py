@@ -234,6 +234,7 @@ if __name__ == "__main__":
 
         # NOTE que em testes a OpenCV 4.0 requereu frames em BGR para o cv2.imshow
         cv2.imshow('imagem', frame)
+        cv2.imshow('magenta', mask_magenta)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
